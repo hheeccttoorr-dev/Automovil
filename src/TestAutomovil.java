@@ -2,7 +2,7 @@ import javax.swing.plaf.basic.BasicGraphicsUtils;
 
 public class TestAutomovil {
     public static void main(String[] args) {
-        Automovil automovil = new Automovil("Opel", "Astra", 2008);
+        Automovil automovil = new Automovil("Opel", "Astra", 2006);
         automovil.mostrarInformacion();
         System.out.println("---------");
         System.out.println(automovil);
